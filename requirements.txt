@@ -1,0 +1,7 @@
+Flask==1.1.2
+
+werkzeug==0.15.1
+
+gunicorn==19.4.5
+
+flask-debugtoolbar==0.10.0
