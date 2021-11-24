@@ -11,6 +11,6 @@ def home():
 def contact():
     return render_template('page/contact.html')
 
-@page.route('/ecom_project')
+@page.route('/ecom_project', methods=['GET','POST'])
 def ecom_project():
     return render_template('page/ecom_project.html')
